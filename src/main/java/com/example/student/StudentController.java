@@ -35,4 +35,10 @@ public class StudentController {
 		return "Server is working";
 	}
 	
+
+	@GetMapping("/firstChange")
+	public String firstChange() {
+		return "Server is working";
+	}
+	
 }
