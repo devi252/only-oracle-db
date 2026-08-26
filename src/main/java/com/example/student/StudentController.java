@@ -30,5 +30,9 @@ public class StudentController {
 	public String test() {
 		return "Server is working";
 	}
+	@GetMapping("/test2")
+	public String test2() {
+		return "Server is working";
+	}
 	
 }
