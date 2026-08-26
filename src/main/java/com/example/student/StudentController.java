@@ -30,7 +30,7 @@ public class StudentController {
 	public String test() {
 		return "Server is working";
 	}
-	@GetMapping("/test2")
+	@GetMapping("/test-only")
 	public String test2() {
 		return "Server is working";
 	}
