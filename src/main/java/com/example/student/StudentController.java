@@ -36,8 +36,8 @@ public class StudentController {
 	}
 	
 
-	@GetMapping("/firstChange")
-	public String firstChange() {
+	@GetMapping("/change")
+	public String change() {
 		return "Server is working";
 	}
 	
