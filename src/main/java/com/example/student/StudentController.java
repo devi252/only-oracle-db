@@ -26,5 +26,9 @@ public class StudentController {
 	public List<StudentEntity> getList() {
 		return service.getList();
 	}
+	@GetMapping("/test")
+	public String test() {
+		return "Server is working";
+	}
 	
 }
